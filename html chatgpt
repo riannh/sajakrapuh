@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Puisi dan Sajak</title>
+    <style>
+        body {
+            font-family: Arial, Times New Roman, Times, sans-serif;
+            color: #333;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .post {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #ff9a9e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blog Puisi dan Sajak</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="post">
+                <h2>Puisi Pertama</h2>
+                <p>Ini adalah puisi pertama saya. Selamat membaca!</p>
+            </div>
+            <div class="post">
+                <h2>Sajak Kedua</h2>
+                <p>Ini adalah sajak kedua saya. Semoga kamu menyukainya!</p>
+            </div>
+            <!-- Tambahkan lebih banyak postingan puisi/sajak di sini -->
+        </div>
+
+        <div class="gallery">
+            <h2>Galeri Gambar</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Gambar 1">
+            <img src="https://via.placeholder.com/800x400" alt="Gambar 2">
+            <img src="https://via.placeholder.com/800x400" alt="Gambar 3">
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+        <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+        <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
